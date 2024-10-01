@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    border-bottom: 2px solid #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly; /* Evenly space all items */
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /* Evenly space menu items */
+    width: 60%; /* Set width for better spacing */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.download-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    padding: 50px;
+}
+
+.membership-card {
+    text-align: center;
+}
+
+.membership-card img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.membership-card h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.membership-card h2 {
+    font-size: 18px;
+    color: #555;
+    letter-spacing: 2px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons-container button {
+    background-color: #f0e68c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+    margin: 5px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-card-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.img{
+
+    text-align: left;
+
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Club Membership Card</title>
+    <link rel="stylesheet" href="Microsoftclub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div>
+            <span style="font-size: 22px; font-weight: bold;">MICROSOFT CLUB</span>
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MSC SIST</a></li>
+            <li><a href="#">MSC FOR STUDENT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <a href="#" class="download-btn">DOWNLOAD</a>
+    </nav>
+
+    <!-- Membership Card Section -->
+    <div class="main">
+        <div class="membership-card">
+            <!-- <img src="" alt="Membership Card Image"> -->
+            <h2>MICROSOFT CLUB</h2>
+            <h1>MEMBERSHIP CARD</h1>
+
+            <div class="buttons-container">
+                <button>EXCLUSIVE EVENTS*</button>
+                <button>EXPOSURE TO INDUSTRIES</button>
+                <button>MICROSOFT TOOLS & COURSES</button>
+                <button>PROJECT BUILDING SESSIONS</button>
+            </div>
+
+            <!-- Call the function on button click -->
+            <button class="get-card-btn" onclick="redirectToNextPage()">GET YOUR FREE CARD NOW</button>
+            <div class="img">
+                <img src="imagemc.png" class="img">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function redirectToNextPage() {
+            window.location.href = 'Mc1.html'; // Link to the desired HTML page
+        }
+    </script>
+
+</body>
+</html>
